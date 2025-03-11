@@ -30,7 +30,7 @@ def ImprovedSandCatSwarmOptimizer(
     weight_acc=0.9,
     save_dir="",
 ):
-    agent_name = "BOO"
+    agent_name = "ISCSO"
     train_data, train_label = np.array(train_data), np.array(train_label)
     num_features = train_data.shape[1]
     trans_function = get_trans_function(trans_function_shape)
