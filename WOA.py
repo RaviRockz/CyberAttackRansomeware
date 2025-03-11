@@ -14,7 +14,7 @@ class WhaleOptimizer(optimizer_v2.OptimizerV2):
         momentum=0.0,
         epsilon=1e-7,
         centered=False,
-        name="HO",
+        name="WOA",
         **kwargs,
     ):
         super().__init__(name, **kwargs)
